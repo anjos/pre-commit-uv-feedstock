@@ -17,13 +17,14 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - hatch-vcs >=0.4
-    - hatchling >=1.25
+    - hatch-fancy-pypi-readme >=25.1
+    - hatch-vcs >=0.5
+    - hatchling >=1.32.4
     - pip
   run:
     - python >={{ python_min }}
-    - pre-commit >=3.8
-    - python-uv >=0.4.7
+    - pre-commit >=4.6.2
+    - python-uv >=0.12.22
 
 test:
   imports:
