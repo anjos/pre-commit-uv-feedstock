@@ -1,5 +1,5 @@
 {% set name = "pre-commit-uv" %}
-{% set version = "4.4.2" %}
+{% set version = "4.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pre_commit_uv-{{ version }}.tar.gz
-  sha256: a29a29fe2e0b294ba5a75e28b0ca7804eb04609129603b1897411e44aed8701c
+  sha256: f0a66ba762063d009edca8a3c6024de668fa6238b69ffab6041b4dfecd4dbb44
 
 build:
   noarch: python
